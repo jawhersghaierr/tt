@@ -1,0 +1,58 @@
+export const mockProfiles = [
+  {
+    id: 1,
+    name: "Sonia",
+    age: 27,
+    role: "Candidate",
+    title: "Frontend React Developer",
+    location: "Paris",
+    experience: "4 ans",
+    skills: ["React", "JavaScript", "Tailwind"],
+    bio: "Passionnée par les interfaces fluides, le mobile-first et les produits bien pensés.",
+    image:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80",
+    likedYou: true,
+  },
+  {
+    id: 2,
+    name: "Karim",
+    age: 31,
+    role: "Recruiter",
+    title: "Tech Recruiter",
+    location: "Lyon",
+    experience: "7 ans",
+    skills: ["Tech Hiring", "Sourcing", "ATS"],
+    bio: "Je recrute des profils tech pour des équipes produit ambitieuses.",
+    image:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80",
+    likedYou: false,
+  },
+  {
+    id: 3,
+    name: "Inès",
+    age: 29,
+    role: "Candidate",
+    title: "Product Designer",
+    location: "Remote",
+    experience: "5 ans",
+    skills: ["Figma", "UX", "Design System"],
+    bio: "Je conçois des expériences premium, simples et impactantes.",
+    image:
+      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80",
+    likedYou: true,
+  },
+  {
+    id: 4,
+    name: "Mehdi",
+    age: 34,
+    role: "Recruiter",
+    title: "Engineering Manager",
+    location: "Marseille",
+    experience: "9 ans",
+    skills: ["Leadership", "Hiring", "Scaling Teams"],
+    bio: "Je cherche des talents capables de construire des produits solides.",
+    image:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80",
+    likedYou: false,
+  },
+];
